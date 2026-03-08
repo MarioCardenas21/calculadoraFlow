@@ -35,6 +35,12 @@ def raiz_cuadrada(a):
         return "Error: no se puede calcular la raíz cuadrada de un número negativo."
     return math.sqrt(a)
 
+def raiz_cuadrada(a):
+    if a < 0:
+        return "Error: no se puede calcular la raíz cuadrada de un número negativo."
+    return math.sqrt(a)
+
+
 def main():
     while True:
         mostrar_menu()
